@@ -1,0 +1,3226 @@
+[26/Jun/2015 22:56:35] "GET /get/http://google.com HTTP/1.1" 200 19988
+[26/Jun/2015 22:56:35] "GET /get/http://google.com HTTP/1.1" 200 20460
+[26/Jun/2015 22:56:36] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 82907
+[26/Jun/2015 22:56:36] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 83099
+[26/Jun/2015 22:56:36] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 83099
+[26/Jun/2015 22:56:36] "GET /images/srpr/logo9w.png HTTP/1.1" 500 82811
+[26/Jun/2015 22:56:36] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 82907
+[26/Jun/2015 22:56:36] "GET /images/srpr/logo9w.png HTTP/1.1" 500 82811
+[26/Jun/2015 22:56:36] "GET /xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA HTTP/1.1" 500 84707
+[26/Jun/2015 22:56:36] "GET /xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA HTTP/1.1" 500 84707
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+error: [Errno 32] Broken pipe
+[26/Jun/2015 22:56:36] "GET /xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA HTTP/1.1" 500 59
+[26/Jun/2015 22:56:36] "GET /xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+[26/Jun/2015 22:56:36] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=o9iNVZ1ChM-wBdKtmogI HTTP/1.1" 500 84602
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.flush()
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Jun/2015 22:56:36] "GET /images/nav_logo199.png HTTP/1.1" 500 82811
+[26/Jun/2015 22:56:36] "GET /favicon.ico HTTP/1.1" 500 82547
+[26/Jun/2015 22:56:37] "GET /getGoogleSuggestion/1ada HTTP/1.1" 200 111
+[26/Jun/2015 22:56:38] "GET /getGoogleSuggestion/1adaa HTTP/1.1" 200 0
+[26/Jun/2015 22:56:39] "GET /getGoogleSuggestion/1ada HTTP/1.1" 200 111
+[26/Jun/2015 22:56:40] "GET /getGoogleSuggestion/a HTTP/1.1" 200 112
+[26/Jun/2015 22:56:43] "GET /getGoogleSuggestion/a HTTP/1.1" 200 112
+[26/Jun/2015 22:56:44] "GET /getGoogleSuggestion/ap HTTP/1.1" 200 112
+[26/Jun/2015 22:56:45] "GET /getGoogleSuggestion/ap HTTP/1.1" 200 112
+[27/Jun/2015 09:00:57] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[27/Jun/2015 09:00:57] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[28/Jun/2015 21:46:11] "GET /robots.txt HTTP/1.0" 500 77198
+[28/Jun/2015 21:59:50] "GET /robots.txt HTTP/1.0" 500 77189
+[30/Jun/2015 10:48:58] "GET /robots.txt HTTP/1.0" 500 77195
+[01/Jul/2015 14:55:25] "GET /robots.txt HTTP/1.0" 500 77191
+[01/Jul/2015 18:55:42] "GET /get/http://google.com HTTP/1.1" 200 18396
+[01/Jul/2015 18:55:43] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 82434
+[01/Jul/2015 18:55:43] "GET /images/srpr/logo9w.png HTTP/1.1" 500 82146
+[01/Jul/2015 18:55:43] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=rTeUVfesEIO4sAWRzoKwBQ HTTP/1.1" 500 83977
+[01/Jul/2015 18:55:44] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 82242
+[01/Jul/2015 18:55:44] "GET /xjs/_/js/k=xjs.hp.en_US.n4Isykx1pOI.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGruBlRL4zSGyBzh4XK8InqnND9gA HTTP/1.1" 500 84042
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[01/Jul/2015 18:55:44] "GET /xjs/_/js/k=xjs.hp.en_US.n4Isykx1pOI.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGruBlRL4zSGyBzh4XK8InqnND9gA HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[01/Jul/2015 18:55:45] "GET /images/nav_logo199.png HTTP/1.1" 500 82146
+[01/Jul/2015 18:55:45] "GET /favicon.ico HTTP/1.1" 500 81882
+[02/Jul/2015 04:26:14] "GET /robots.txt HTTP/1.0" 500 77179
+[03/Jul/2015 15:47:33] "GET /robots.txt HTTP/1.0" 500 77188
+[05/Jul/2015 00:58:49] "GET /robots.txt HTTP/1.0" 500 77191
+[05/Jul/2015 07:44:23] "GET /robots.txt HTTP/1.0" 500 77182
+[05/Jul/2015 20:30:35] "GET /robots.txt HTTP/1.0" 500 77188
+[05/Jul/2015 23:12:35] "GET /robots.txt HTTP/1.1" 500 77407
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[05/Jul/2015 23:12:35] "GET /robots.txt HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[05/Jul/2015 23:15:42] "GET /get/http:/google.com HTTP/1.1" 500 74160
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[05/Jul/2015 23:15:42] "GET /get/http:/google.com HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[06/Jul/2015 10:11:48] "GET /robots.txt HTTP/1.1" 500 77214
+[07/Jul/2015 04:27:23] "GET /robots.txt HTTP/1.0" 500 77197
+[07/Jul/2015 14:21:32] "GET /robots.txt HTTP/1.0" 500 77188
+[07/Jul/2015 18:17:35] "GET /getGoogleSuggestion/c HTTP/1.1" 200 95
+[07/Jul/2015 18:17:35] "GET /getGoogleSuggestion/ce HTTP/1.1" 200 121
+[07/Jul/2015 18:17:36] "GET /getGoogleSuggestion/cer HTTP/1.1" 200 118
+[07/Jul/2015 18:17:36] "GET /getGoogleSuggestion/cern HTTP/1.1" 200 134
+[07/Jul/2015 18:17:36] "GET /getGoogleSuggestion/cerner HTTP/1.1" 200 157
+[07/Jul/2015 18:17:37] "GET /getGoogleSuggestion/cerner HTTP/1.1" 200 157
+[07/Jul/2015 18:17:39] "GET /getGoogleSuggestion/cerner HTTP/1.1" 200 157
+[07/Jul/2015 18:17:53] "GET /getGoogleSuggestion/c HTTP/1.1" 200 95
+[07/Jul/2015 18:17:54] "GET /getGoogleSuggestion/cer HTTP/1.1" 200 118
+[07/Jul/2015 18:17:54] "GET /getGoogleSuggestion/cer HTTP/1.1" 200 118
+[07/Jul/2015 18:17:54] "GET /getGoogleSuggestion/cerer HTTP/1.1" 200 103
+[07/Jul/2015 18:17:55] "GET /getGoogleSuggestion/cerer HTTP/1.1" 200 103
+[07/Jul/2015 18:17:55] "GET /getGoogleSuggestion/cere HTTP/1.1" 200 127
+[07/Jul/2015 18:17:55] "GET /getGoogleSuggestion/cer HTTP/1.1" 200 118
+[07/Jul/2015 18:17:55] "GET /getGoogleSuggestion/ce HTTP/1.1" 200 121
+[07/Jul/2015 18:17:56] "GET /getGoogleSuggestion/c HTTP/1.1" 200 95
+[07/Jul/2015 18:17:56] "GET /getGoogleSuggestion/c HTTP/1.1" 200 95
+[07/Jul/2015 18:17:57] "GET /getGoogleSuggestion/cer HTTP/1.1" 200 118
+[07/Jul/2015 18:17:57] "GET /getGoogleSuggestion/cer HTTP/1.1" 200 118
+[07/Jul/2015 18:17:58] "GET /getGoogleSuggestion/cerne HTTP/1.1" 200 157
+[07/Jul/2015 18:17:58] "GET /getGoogleSuggestion/cerner HTTP/1.1" 200 157
+[07/Jul/2015 18:17:59] "GET /getGoogleSuggestion/cerner HTTP/1.1" 200 157
+[07/Jul/2015 18:18:03] "GET /getGoogleSuggestion/cerne HTTP/1.1" 200 157
+[07/Jul/2015 18:18:03] "GET /getGoogleSuggestion/cern HTTP/1.1" 200 134
+[07/Jul/2015 18:18:03] "GET /getGoogleSuggestion/cer HTTP/1.1" 200 118
+[07/Jul/2015 18:18:04] "GET /getGoogleSuggestion/ce HTTP/1.1" 200 121
+[07/Jul/2015 18:18:04] "GET /getGoogleSuggestion/c HTTP/1.1" 200 95
+[07/Jul/2015 18:18:07] "GET /getGoogleSuggestion/s HTTP/1.1" 200 99
+[07/Jul/2015 18:18:07] "GET /getGoogleSuggestion/sea HTTP/1.1" 200 112
+[07/Jul/2015 18:18:08] "GET /getGoogleSuggestion/sea HTTP/1.1" 200 112
+[07/Jul/2015 18:18:08] "GET /getGoogleSuggestion/sear HTTP/1.1" 200 140
+[07/Jul/2015 18:18:09] "GET /getGoogleSuggestion/searc HTTP/1.1" 200 169
+[07/Jul/2015 18:18:09] "GET /getGoogleSuggestion/search HTTP/1.1" 200 169
+[07/Jul/2015 18:18:17] "GET /getGoogleSuggestion/searc HTTP/1.1" 200 169
+[07/Jul/2015 18:18:18] "GET /getGoogleSuggestion/search HTTP/1.1" 200 169
+[07/Jul/2015 18:18:19] "GET /getGoogleSuggestion/search HTTP/1.1" 200 169
+[07/Jul/2015 18:18:23] "GET /getGoogleSuggestion/search HTTP/1.1" 200 169
+[07/Jul/2015 21:07:09] "GET /robots.txt HTTP/1.1" 500 77404
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[07/Jul/2015 21:07:09] "GET /robots.txt HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[07/Jul/2015 21:07:22] "GET /get/ HTTP/1.1" 500 77498
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[07/Jul/2015 21:07:22] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[09/Jul/2015 09:57:27] "GET /robots.txt HTTP/1.0" 500 77182
+[09/Jul/2015 14:18:13] "GET /robots.txt HTTP/1.0" 500 77191
+[09/Jul/2015 16:36:55] "GET /getGoogleSuggestion/k HTTP/1.1" 200 85
+[09/Jul/2015 16:36:59] "GET /getGoogleSuggestion/ke HTTP/1.1" 200 152
+[09/Jul/2015 16:37:00] "GET /getGoogleSuggestion/kep HTTP/1.1" 200 117
+[09/Jul/2015 16:37:01] "GET /getGoogleSuggestion/kepl HTTP/1.1" 200 141
+[09/Jul/2015 16:37:02] "GET /getGoogleSuggestion/keple HTTP/1.1" 200 141
+[09/Jul/2015 16:37:04] "GET /getGoogleSuggestion/kepler HTTP/1.1" 200 141
+[09/Jul/2015 16:37:05] "GET /getGoogleSuggestion/kepler HTTP/1.1" 200 141
+[09/Jul/2015 16:37:11] "GET /getGoogleSuggestion/kepler%20438b HTTP/1.1" 200 190
+[11/Jul/2015 11:20:30] "GET /robots.txt HTTP/1.1" 500 77408
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[11/Jul/2015 11:20:30] "GET /robots.txt HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[11/Jul/2015 11:21:29] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[11/Jul/2015 11:21:29] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+June 26, 2015 - 22:56:30
+Django version 1.7.1, using settings 'kepler_responsor.settings'
+Starting development server at http://0.0.0.0:124/
+Quit the server with CONTROL-C.
+/get/http://google.com
+http://google.com
+/get/http://google.com
+http://google.com
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA
+xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA
+/xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA
+xjs/_/js/k=xjs.hp.en_US.AoRQ2stILnE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oHDaKKPYXmDlcyGXC9LRBJZmZy4DA
+/client_204?&atyp=i&biw=1440&bih=811&ei=o9iNVZ1ChM-wBdKtmogI
+client_204?&atyp=i&biw=1440&bih=811&ei=o9iNVZ1ChM-wBdKtmogI
+----------------------------------------
+Exception happened during processing of request from----------------------------------------
+Exception happened during processing of request from  ('99.14.140.249'(, '99.14.140.249', 60997)
+60996)
+/images/nav_logo199.png
+images/nav_logo199.png
+----------------------------------------
+/favicon.ico
+favicon.ico
+ ----------------------------------------
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.150', 20790)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http://google.com
+http://google.com
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/client_204?&atyp=i&biw=1440&bih=811&ei=rTeUVfesEIO4sAWRzoKwBQ
+client_204?&atyp=i&biw=1440&bih=811&ei=rTeUVfesEIO4sAWRzoKwBQ
+/xjs/_/js/k=xjs.hp.en_US.n4Isykx1pOI.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGruBlRL4zSGyBzh4XK8InqnND9gA
+xjs/_/js/k=xjs.hp.en_US.n4Isykx1pOI.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGruBlRL4zSGyBzh4XK8InqnND9gA
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.109', 34731)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/favicon.ico
+favicon.ico
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.144', 10459)
+----------------------------------------
+/get/http:/google.com
+http:/google.com
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.159', 24542)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.24', 17592)
+----------------------------------------
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.163', 34894)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.159', 27466)
+----------------------------------------
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.159', 42865)
+----------------------------------------
+/robots.txt
+r[11/Jul/2015 18:43:42] "GET /robots.txt HTTP/1.0" 500 77195
+[12/Jul/2015 02:19:25] "GET /robots.txt HTTP/1.0" 500 77192
+[13/Jul/2015 05:38:49] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[13/Jul/2015 05:38:49] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[13/Jul/2015 16:08:15] "GET /robots.txt HTTP/1.0" 500 77198
+[13/Jul/2015 23:23:40] "GET /robots.txt HTTP/1.0" 500 77192
+[14/Jul/2015 03:16:17] "GET /get/http://google.com HTTP/1.1" 200 19037
+[14/Jul/2015 03:16:17] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 82423
+[14/Jul/2015 03:16:17] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=_36kVcapDZagyATio5-ACQ HTTP/1.1" 500 83966
+[14/Jul/2015 03:16:17] "GET /logos/doodles/2015/new-horizons-pluto-flyby-5641113681526784.2-hp.gif HTTP/1.1" 500 83263
+[14/Jul/2015 03:16:18] "GET /xjs/_/js/k=xjs.hp.en_US.Qwg9JgNVciE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEM356bhMMgKvwoLdqSFpOzbsYHQA HTTP/1.1" 500 84031
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[14/Jul/2015 03:16:18] "GET /xjs/_/js/k=xjs.hp.en_US.Qwg9JgNVciE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEM356bhMMgKvwoLdqSFpOzbsYHQA HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[14/Jul/2015 03:16:18] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 82231
+[14/Jul/2015 03:16:18] "GET /images/nav_logo199.png HTTP/1.1" 500 82135
+[14/Jul/2015 03:16:18] "GET /favicon.ico HTTP/1.1" 500 81871
+[14/Jul/2015 03:19:20] "GET /getGoogleSuggestion/w HTTP/1.1" 200 113
+[14/Jul/2015 03:19:23] "GET /getGoogleSuggestion/of HTTP/1.1" 200 140
+[14/Jul/2015 03:19:23] "GET /getGoogleSuggestion/of HTTP/1.1" 200 140
+[14/Jul/2015 03:19:25] "GET /getGoogleSuggestion/office%20depot HTTP/1.1" 200 231
+[14/Jul/2015 03:19:26] "GET /getGoogleSuggestion/office%20365 HTTP/1.1" 200 175
+[14/Jul/2015 03:19:26] "GET /getGoogleSuggestion/off%20broadway%20shoes HTTP/1.1" 200 287
+[14/Jul/2015 03:19:26] "GET /getGoogleSuggestion/off%20broadway%20shoes HTTP/1.1" 200 287
+[14/Jul/2015 07:34:46] "GET /robots.txt HTTP/1.0" 500 77195
+[15/Jul/2015 13:56:01] "GET /robots.txt HTTP/1.1" 500 77775
+[15/Jul/2015 20:55:23] "GET /robots.txt HTTP/1.1" 500 77775
+[15/Jul/2015 23:57:01] "GET /robots.txt HTTP/1.0" 500 77189
+[16/Jul/2015 02:55:06] "GET /robots.txt HTTP/1.1" 500 77775
+[16/Jul/2015 05:30:52] "GET /robots.txt HTTP/1.1" 500 77405
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[16/Jul/2015 05:30:52] "GET /robots.txt HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[16/Jul/2015 07:03:11] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[16/Jul/2015 07:03:11] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[16/Jul/2015 08:56:40] "GET /robots.txt HTTP/1.1" 500 77775
+[16/Jul/2015 14:46:18] "GET /robots.txt HTTP/1.1" 500 77775
+[16/Jul/2015 16:43:11] "GET /robots.txt HTTP/1.0" 500 77198
+[16/Jul/2015 20:45:10] "GET /robots.txt HTTP/1.0" 500 77183
+[19/Jul/2015 03:12:29] "GET /robots.txt HTTP/1.0" 500 77189
+[19/Jul/2015 03:37:32] "GET /robots.txt HTTP/1.0" 500 77198
+[19/Jul/2015 04:21:15] "GET /robots.txt HTTP/1.0" 500 77195
+[20/Jul/2015 08:37:56] "GET /get/http:/google.com HTTP/1.1" 500 74161
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[20/Jul/2015 08:37:56] "GET /get/http:/google.com HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[20/Jul/2015 13:08:13] "GET / HTTP/1.1" 500 77301
+[20/Jul/2015 13:10:29] "GET / HTTP/1.1" 500 77301
+[22/Jul/2015 03:00:59] "GET /robots.txt HTTP/1.1" 500 77192
+[22/Jul/2015 08:13:37] "GET /robots.txt HTTP/1.0" 500 77195
+[25/Jul/2015 07:03:01] "GET /robots.txt HTTP/1.1" 500 77195
+[25/Jul/2015 11:32:41] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[25/Jul/2015 11:32:41] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Jul/2015 01:03:11] "GET /robots.txt HTTP/1.1" 500 77405
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[26/Jul/2015 01:03:11] "GET /robots.txt HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Jul/2015 01:03:55] "GET /get/http:/google.com HTTP/1.1" 500 74161
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[26/Jul/2015 01:03:55] "GET /get/http:/google.com HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Jul/2015 12:34:33] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[26/Jul/2015 12:34:33] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[28/Jul/2015 07:54:25] "GET /robots.txt HTTP/1.0" 500 77195
+[29/Jul/2015 00:35:36] "GET /getGoogleSuggestion/g HTTP/1.1" 200 118
+[29/Jul/2015 00:35:36] "GET /getGoogleSuggestion/go HTTP/1.1" 200 132
+[29/Jul/2015 00:35:38] "GET /getGoogleSuggestion/goo HTTP/1.1" 200 132
+[30/Jul/2015 09:42:15] "GET /robots.txt HTTP/1.0" 500 77183
+[31/Jul/2015 18:28:35] "GET /get/http:/google.com HTTP/1.1" 500 74161
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[31/Jul/2015 18:28:35] "GET /get/http:/google.com HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[01/Aug/2015 19:09:32] "GET /robots.txt HTTP/1.0" 500 77188
+[02/Aug/2015 23:02:56] "GET / HTTP/1.1" 500 77300
+[02/Aug/2015 23:03:56] "GET / HTTP/1.1" 500 77300
+[03/Aug/2015 08:05:07] "GET /robots.txt HTTP/1.1" 500 77771
+[03/Aug/2015 13:36:46] "GET /robots.txt HTTP/1.1" 500 77774
+[03/Aug/2015 16:28:27] "GET / HTTP/1.1" 500 78904
+[03/Aug/2015 16:28:28] "GET /favicon.ico HTTP/1.1" 500 79259
+[03/Aug/2015 16:28:50] "GET /get/http:/yahoo.com HTTP/1.1" 500 75595
+[03/Aug/2015 16:29:08] "GET /get/www.yahoo.com HTTP/1.1" 500 79264
+[03/Aug/2015 16:29:18] "GET /get/http://google.com HTTP/1.1" 200 11969
+[03/Aug/2015 16:29:19] "GET /images/srpr/logo9w.png HTTP/1.1" 500 79586
+[03/Aug/2015 16:29:19] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=25a_VayQOYjngwTJhYDADw HTTP/1.1" 500 81417
+[03/Aug/2015 16:29:20] "GET /xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg HTTP/1.1" 500 81482
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:29:20] "GET /xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:29:20] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 79682
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:29:20] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:29:20] "GET /get/http://google.com HTTP/1.1" 200 11990
+obots.txt
+/robots.txt
+robots.txt
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.142', 29677)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http://google.com
+http://google.com
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/logos/doodles/2015/new-horizons-pluto-flyby-5641113681526784.2-hp.gif
+logos/doodles/2015/new-horizons-pluto-flyby-5641113681526784.2-hp.gif
+/client_204?&atyp=i&biw=1440&bih=811&ei=_36kVcapDZagyATio5-ACQ
+client_204?&atyp=i&biw=1440&bih=811&ei=_36kVcapDZagyATio5-ACQ
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/xjs/_/js/k=xjs.hp.en_US.Qwg9JgNVciE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEM356bhMMgKvwoLdqSFpOzbsYHQA
+xjs/_/js/k=xjs.hp.en_US.Qwg9JgNVciE.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEM356bhMMgKvwoLdqSFpOzbsYHQA
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 61984)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/favicon.ico
+favicon.ico
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.31', 26654)
+----------------------------------------
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.136', 32710)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http:/google.com
+http:/google.com
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.147', 28160)
+----------------------------------------
+/
+
+/
+
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.145', 31728)
+----------------------------------------
+/robots.txt
+robots.txt
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.10', 10337)
+----------------------------------------
+/get/http:/google.com
+http:/google.com
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.136', 13302)
+----------------------------------------
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.147', 29499)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http:/google.com
+http:/google.com
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.136', 48122)
+----------------------------------------
+/robots.txt
+robots.txt
+/
+
+/
+
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/
+
+/favicon.ico
+favicon.ico
+/get/http:/yahoo.com
+http:/yahoo.com
+/get/www.yahoo.com
+www.yahoo.com
+/get/http://google.com
+http://google.com
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/client_204?&atyp=i&biw=1440&bih=811&ei=25a_VayQOYjngwTJhYDADw
+client_204?&atyp=i&biw=1440&bih=811&ei=25a_VayQOYjngwTJhYDADw
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg
+xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.101', 39095)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.101', 60441)
+/get/http://google.com
+http://google.com
+----------------------------------------
+/images/srpr/logo9w.png
+ /client_204?&atyp=i&biw=1440&bih=811&ei=3Za_Vd3BJoarNrKGs_gI
+client_204?&atyp=i&biw=1[03/Aug/2015 16:29:21] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=3Za_Vd3BJoarNrKGs_gI HTTP/1.1" 500 81377
+[03/Aug/2015 16:29:21] "GET /images/srpr/logo9w.png HTTP/1.1" 500 79586
+[03/Aug/2015 16:29:21] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 79682
+[03/Aug/2015 16:29:21] "GET /xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg HTTP/1.1" 500 81482
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:29:21] "GET /xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:29:22] "GET /images/nav_logo199.png HTTP/1.1" 500 79586
+[03/Aug/2015 16:29:32] "GET /get/http://www.yahoo.com HTTP/1.1" 200 323071
+[03/Aug/2015 16:29:39] "GET /p.gif;http://www.yahoo.com?t=1438619389920 HTTP/1.1" 500 75987
+[03/Aug/2015 16:29:43] "GET /hjsal?_action=show&_subAction=getTeams&noups=1&_container=0&_id=p_30345807&_txnid=1438619393762&_crumb=invalid&_mode=json HTTP/1.1" 500 11729
+[03/Aug/2015 16:31:50] "GET /get/http://www.yahoo.com HTTP/1.1" 200 318035
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:31:50] "GET /get/http://www.yahoo.com HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:32:26] "GET /get/http://www.yahoo.com HTTP/1.1" 200 321170
+[03/Aug/2015 16:33:31] "GET /get/http://google.com HTTP/1.1" 200 12059
+[03/Aug/2015 16:33:31] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 80059
+[03/Aug/2015 16:33:31] "GET /images/srpr/logo9w.png HTTP/1.1" 500 79963
+[03/Aug/2015 16:33:32] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=2Je_Va7BCsKUNuiahbgJ HTTP/1.1" 500 81754
+[03/Aug/2015 16:33:32] "GET /xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg HTTP/1.1" 500 81859
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:33:32] "GET /xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:33:32] "GET /images/nav_logo199.png HTTP/1.1" 500 79963
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:33:32] "GET /images/nav_logo199.png HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Aug/2015 16:33:36] "GET /getGoogleSuggestion/a HTTP/1.1" 200 115
+[03/Aug/2015 16:33:37] "GET /getGoogleSuggestion/s HTTP/1.1" 200 92
+[03/Aug/2015 16:33:38] "GET /getGoogleSuggestion/se HTTP/1.1" 200 133
+[03/Aug/2015 16:33:39] "GET /getGoogleSuggestion/se HTTP/1.1" 200 133
+[03/Aug/2015 16:33:39] "GET /getGoogleSuggestion/se HTTP/1.1" 200 133
+[03/Aug/2015 16:34:10] "GET /get/http://www.yahoo.com HTTP/1.1" 200 319946
+[03/Aug/2015 17:19:33] "GET /get/http://putlocker.is/watch-friends-tvshow-online-free-putlocker.html HTTP/1.1" 200 119301
+[03/Aug/2015 17:19:49] "GET /get/http://putlocker.is/watch-friends-tvshow-season-3-episode-8-online-free-putlocker.html HTTP/1.1" 200 43490
+[03/Aug/2015 20:10:08] "GET /robots.txt HTTP/1.1" 500 77771
+[04/Aug/2015 03:14:02] "GET /robots.txt HTTP/1.1" 500 77774
+[08/Aug/2015 15:44:56] "GET /robots.txt HTTP/1.1" 500 77774
+[08/Aug/2015 23:52:18] "GET /robots.txt HTTP/1.1" 500 77774
+[09/Aug/2015 04:19:50] "GET /robots.txt HTTP/1.1" 500 77774
+[09/Aug/2015 06:03:59] "GET /robots.txt HTTP/1.1" 500 77774
+[09/Aug/2015 11:02:00] "GET / HTTP/1.1" 500 77300
+[09/Aug/2015 11:03:01] "GET / HTTP/1.1" 500 77300
+[09/Aug/2015 11:44:05] "GET /robots.txt HTTP/1.1" 500 77774
+[09/Aug/2015 11:44:33] "GET /robots.txt HTTP/1.1" 500 77774
+[09/Aug/2015 17:39:32] "GET /robots.txt HTTP/1.1" 500 77774
+[09/Aug/2015 23:31:08] "GET /robots.txt HTTP/1.1" 500 77774
+[10/Aug/2015 08:04:51] "GET /robots.txt HTTP/1.0" 500 77195
+[11/Aug/2015 05:54:30] "GET /robots.txt HTTP/1.0" 500 77195
+[12/Aug/2015 04:26:20] "GET /robots.txt HTTP/1.0" 500 77195
+[12/Aug/2015 11:08:52] "GET /robots.txt HTTP/1.0" 500 77198
+[12/Aug/2015 15:15:08] "GET /robots.txt HTTP/1.0" 500 77198
+[13/Aug/2015 07:39:16] "GET /robots.txt HTTP/1.0" 500 77198
+[14/Aug/2015 07:15:44] "GET /robots.txt HTTP/1.0" 500 77195
+[14/Aug/2015 19:56:23] "GET /robots.txt HTTP/1.0" 500 77183
+[15/Aug/2015 10:00:50] "GET /robots.txt HTTP/1.0" 500 77227
+[16/Aug/2015 05:28:10] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[16/Aug/2015 05:28:10] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[16/Aug/2015 20:14:15] "GET /robots.txt HTTP/1.0" 500 77189
+[18/Aug/2015 00:28:58] "GET /robots.txt HTTP/1.0" 500 77198
+[18/Aug/2015 10:36:04] "GET /robots.txt HTTP/1.0" 500 77189
+[18/Aug/2015 16:00:54] "GET /get/http://google.com HTTP/1.1" 200 18496
+[18/Aug/2015 16:00:54] "GET /images/srpr/logo9w.png HTTP/1.1" 500 78571
+[18/Aug/2015 16:00:55] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 78859
+[18/Aug/2015 16:00:55] "GET /client_204?&atyp=i&biw=1440&bih=717&ei=slbTVf-mMsmcgwSUyaPQBw HTTP/1.1" 500 80402
+[18/Aug/2015 16:00:55] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 78667
+[18/Aug/2015 16:00:55] "GET /xjs/_/js/k=xjs.hp.en_US.PcijURl98CQ.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGyJwREQncJAmNXRjGDYE_-VMWaOg HTTP/1.1" 500 80416
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[18/Aug/2015 16:00:55] "GET /xjs/_/js/k=xjs.hp.en_US.PcijURl98CQ.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGyJwREQncJAmNXRjGDYE_-VMWaOg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[18/Aug/2015 16:00:56] "GET /favicon.ico HTTP/1.1" 500 78256
+[18/Aug/2015 16:01:02] "GET /images/nav_logo199.png HTTP/1.1" 500 78571
+[18/Aug/2015 16:01:02] "GET /favicon.ico HTTP/1.1" 500 78256
+[18/Aug/2015 16:01:06] "GET /search?ie=ISO-8859-1&hl=en&source=hp&biw=&bih=&q=Ethan&btnG=Google+Search&gbv=1 HTTP/1.1" 500 81791
+[18/Aug/2015 16:01:06] "GET /favicon.ico HTTP/1.1" 500 78514
+[18/Aug/2015 16:01:09] "GET /favicon.ico HTTP/1.1" 500 78256
+440&bih=811&ei=3Za_Vd3BJoarNrKGs_gI
+images/srpr/logo9w.png
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg
+xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.101', 5881)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/get/http://www.yahoo.com
+http://www.yahoo.com
+/p.gif;http://www.yahoo.com?t=1438619389920
+p.gif;http://www.yahoo.com?t=1438619389920
+/hjsal?_action=show&_subAction=getTeams&noups=1&_container=0&_id=p_30345807&_txnid=1438619393762&_crumb=invalid&_mode=json
+hjsal?_action=show&_subAction=getTeams&noups=1&_container=0&_id=p_30345807&_txnid=1438619393762&_crumb=invalid&_mode=json
+/get/http://www.yahoo.com
+http://www.yahoo.com
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.101', 2611)
+----------------------------------------
+/get/http://www.yahoo.com
+http://www.yahoo.com
+/get/http://google.com
+http://google.com
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/client_204?&atyp=i&biw=1440&bih=811&ei=2Je_Va7BCsKUNuiahbgJ
+client_204?&atyp=i&biw=1440&bih=811&ei=2Je_Va7BCsKUNuiahbgJ
+/xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg
+xjs/_/js/k=xjs.hp.en_US.qQVQbzN3If0.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oEYlcPV9fDT1NHvaau1us2MvYxYhg
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.101', 41402)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.101', 3470)
+----------------------------------------
+/get/http://www.yahoo.com
+http://www.yahoo.com
+/get/http://putlocker.is/watch-friends-tvshow-online-free-putlocker.html
+http://putlocker.is/watch-friends-tvshow-online-free-putlocker.html
+/get/http://putlocker.is/watch-friends-tvshow-season-3-episode-8-online-free-putlocker.html
+http://putlocker.is/watch-friends-tvshow-season-3-episode-8-online-free-putlocker.html
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/
+
+/
+
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.151', 59356)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http://google.com
+http://google.com
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/client_204?&atyp=i&biw=1440&bih=717&ei=slbTVf-mMsmcgwSUyaPQBw
+client_204?&atyp=i&biw=1440&bih=717&ei=slbTVf-mMsmcgwSUyaPQBw
+/xjs/_/js/k=xjs.hp.en_US.PcijURl98CQ.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGyJwREQncJAmNXRjGDYE_-VMWaOg
+xjs/_/js/k=xjs.hp.en_US.PcijURl98CQ.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGyJwREQncJAmNXRjGDYE_-VMWaOg
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.103', 50925)
+----------------------------------------
+/favicon.ico
+favicon.ico
+/images/nav_logo199.png
+images/nav_logo199.png
+/favicon.ico
+favicon.ico
+/search?ie=ISO-8859-1&hl=en&source=hp&biw=&bih=&q=Ethan&btnG=Google+Search&gbv=1
+search?ie=ISO-8859-1&hl=en&source=hp&biw=&bih=&q=Ethan&btnG=Google+Search&gbv=1
+/favicon.ico
+favicon.ico
+/favicon.ico
+favicon.ico
+/search?ie=ISO-8859-1&hl=en&source=h[18/Aug/2015 16:01:10] "GET /search?ie=ISO-8859-1&hl=en&source=hp&biw=&bih=&q=&btnI=I%27m+Feeling+Lucky&gbv=1 HTTP/1.1" 500 82317
+[18/Aug/2015 16:01:11] "GET /favicon.ico HTTP/1.1" 500 78517
+[18/Aug/2015 16:01:12] "GET /favicon.ico HTTP/1.1" 500 78256
+[18/Aug/2015 16:01:36] "GET / HTTP/1.1" 500 77871
+[18/Aug/2015 16:01:36] "GET /favicon.ico HTTP/1.1" 500 78193
+[18/Aug/2015 17:06:35] "GET /robots.txt HTTP/1.0" 500 77195
+[19/Aug/2015 13:51:42] "GET / HTTP/1.1" 500 77298
+[19/Aug/2015 13:52:51] "GET / HTTP/1.1" 500 77301
+[19/Aug/2015 15:11:29] "GET /robots.txt HTTP/1.0" 500 77192
+[19/Aug/2015 17:37:31] "GET / HTTP/1.1" 500 81575
+[19/Aug/2015 17:37:32] "GET /favicon.ico HTTP/1.1" 500 81930
+[19/Aug/2015 17:37:32] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 500 81986
+[19/Aug/2015 17:37:33] "GET /apple-touch-icon.png HTTP/1.1" 500 81698
+[19/Aug/2015 17:37:53] "GET /get/http://battle.net HTTP/1.1" 200 30659
+[19/Aug/2015 17:37:53] "GET /static/local-common/js/third-party.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:37:53] "GET /static/css/bnet.css?v=50 HTTP/1.1" 404 1648
+[19/Aug/2015 17:37:53] "GET /static/css/homepage.css?v=50 HTTP/1.1" 404 1660
+[19/Aug/2015 17:37:53] "GET /static/local-common/css/common.css?v=58-50 HTTP/1.1" 404 1696
+[19/Aug/2015 17:37:53] "GET /static/local-common/js/common-game-site.min.js?v=58 HTTP/1.1" 404 1729
+[19/Aug/2015 17:37:53] "GET /static/js/nav-client/navbar-tk.min.js?v=50 HTTP/1.1" 404 1702
+[19/Aug/2015 17:37:53] "GET /static/css/nav-client/nav-client.css?v=50 HTTP/1.1" 404 1699
+[19/Aug/2015 17:37:53] "GET /static/js/bnet.js?v=50 HTTP/1.1" 404 1642
+[19/Aug/2015 17:37:53] "GET /static/local-common/js/common/menu.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:37:53] "GET /static/images/nav-client/blizzard.png?v=58-50 HTTP/1.1" 404 1705
+[19/Aug/2015 17:37:53] "GET /static/images/legal/privacy-seal-truste.png?v=58-50 HTTP/1.1" 404 1723
+[19/Aug/2015 17:37:53] "GET /static/images/legal/ratings/esrb/en/rp-m.png?v=58-50 HTTP/1.1" 404 1726
+[19/Aug/2015 17:37:53] "GET /static/css/nav-client/nav-client-responsive.css?v=50 HTTP/1.1" 404 1732
+[19/Aug/2015 17:37:54] "GET /static/images/meta/favicon.ico?v=58-50 HTTP/1.1" 404 1684
+[19/Aug/2015 17:38:06] "GET /get/http://battle.net HTTP/1.1" 200 30659
+[19/Aug/2015 17:38:06] "GET /static/local-common/js/common-game-site.min.js?v=58 HTTP/1.1" 404 1729
+[19/Aug/2015 17:38:06] "GET /static/local-common/css/common.css?v=58-50 HTTP/1.1" 404 1696
+[19/Aug/2015 17:38:06] "GET /static/css/bnet.css?v=50 HTTP/1.1" 404 1648
+[19/Aug/2015 17:38:06] "GET /static/local-common/js/third-party.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:06] "GET /static/css/homepage.css?v=50 HTTP/1.1" 404 1660
+[19/Aug/2015 17:38:06] "GET /static/css/nav-client/nav-client.css?v=50 HTTP/1.1" 404 1699
+[19/Aug/2015 17:38:06] "GET /static/local-common/js/common/menu.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:06] "GET /static/js/nav-client/navbar-tk.min.js?v=50 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:06] "GET /static/js/bnet.js?v=50 HTTP/1.1" 404 1642
+[19/Aug/2015 17:38:06] "GET /static/images/nav-client/blizzard.png?v=58-50 HTTP/1.1" 404 1705
+[19/Aug/2015 17:38:06] "GET /static/images/legal/ratings/esrb/en/rp-m.png?v=58-50 HTTP/1.1" 404 1726
+[19/Aug/2015 17:38:06] "GET /static/images/legal/privacy-seal-truste.png?v=58-50 HTTP/1.1" 404 1723
+[19/Aug/2015 17:38:06] "GET /static/css/nav-client/nav-client-responsive.css?v=50 HTTP/1.1" 404 1732
+[19/Aug/2015 17:38:06] "GET /static/images/meta/favicon.ico?v=58-50 HTTP/1.1" 404 1684
+[19/Aug/2015 17:38:22] "GET /en/search?q=Slaya-X HTTP/1.1" 500 79706
+[19/Aug/2015 17:38:22] "GET /favicon.ico HTTP/1.1" 500 79012
+[19/Aug/2015 17:38:31] "GET /get/http://battle.net?login HTTP/1.1" 200 260
+[19/Aug/2015 17:38:34] "GET /get/http://battle.net HTTP/1.1" 200 30659
+[19/Aug/2015 17:38:34] "GET /static/local-common/css/common.css?v=58-50 HTTP/1.1" 404 1696
+[19/Aug/2015 17:38:34] "GET /static/css/bnet.css?v=50 HTTP/1.1" 404 1648
+[19/Aug/2015 17:38:34] "GET /static/local-common/js/third-party.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:34] "GET /static/local-common/js/common-game-site.min.js?v=58 HTTP/1.1" 404 1729
+[19/Aug/2015 17:38:34] "GET /static/css/homepage.css?v=50 HTTP/1.1" 404 1660
+[19/Aug/2015 17:38:34] "GET /static/js/nav-client/navbar-tk.min.js?v=50 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:34] "GET /static/css/nav-client/nav-client.css?v=50 HTTP/1.1" 404 1699
+[19/Aug/2015 17:38:34] "GET /static/js/bnet.js?v=50 HTTP/1.1" 404 1642
+[19/Aug/2015 17:38:34] "GET /static/local-common/js/common/menu.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:34] "GET /static/images/legal/privacy-seal-truste.png?v=58-50 HTTP/1.1" 404 1723
+[19/Aug/2015 17:38:34] "GET /static/images/legal/ratings/esrb/en/rp-m.png?v=58-50 HTTP/1.1" 404 1726
+[19/Aug/2015 17:38:34] "GET /static/images/nav-client/blizzard.png?v=58-50 HTTP/1.1" 404 1705
+[19/Aug/2015 17:38:34] "GET /static/css/nav-client/nav-client-responsive.css?v=50 HTTP/1.1" 404 1732
+[19/Aug/2015 17:38:36] "GET /get/http:// HTTP/1.1" 500 75182
+[19/Aug/2015 17:38:37] "GET /favicon.ico HTTP/1.1" 500 78988
+[19/Aug/2015 17:38:37] "GET /get/http://app/ HTTP/1.1" 500 96548
+[19/Aug/2015 17:38:40] "GET /get/ HTTP/1.1" 500 78681
+[19/Aug/2015 17:38:40] "GET /favicon.ico HTTP/1.1" 500 78967
+[19/Aug/2015 17:38:43] "GET / HTTP/1.1" 500 78633
+[19/Aug/2015 17:38:43] "GET /favicon.ico HTTP/1.1" 500 78955
+[19/Aug/2015 17:38:46] "GET /favicon.ico HTTP/1.1" 500 78955
+[19/Aug/2015 17:38:59] "GET /get/http://battle.net HTTP/1.1" 200 30659
+[19/Aug/2015 17:38:59] "GET /static/local-common/css/common.css?v=58-50 HTTP/1.1" 404 1696
+[19/Aug/2015 17:38:59] "GET /static/css/bnet.css?v=50 HTTP/1.1" 404 1648
+[19/Aug/2015 17:38:59] "GET /static/css/homepage.css?v=50 HTTP/1.1" 404 1660
+[19/Aug/2015 17:38:59] "GET /static/local-common/js/third-party.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:59] "GET /static/css/nav-client/nav-client.css?v=50 HTTP/1.1" 404 1699
+[19/Aug/2015 17:38:59] "GET /static/local-common/js/common-game-site.min.js?v=58 HTTP/1.1" 404 1729
+[19/Aug/2015 17:38:59] "GET /static/js/nav-client/navbar-tk.min.js?v=50 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:59] "GET /static/local-common/js/common/menu.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:38:59] "GET /static/images/nav-client/blizzard.png?v=58-50 HTTP/1.1" 404 1705
+[19/Aug/2015 17:38:59] "GET /static/js/bnet.js?v=50 HTTP/1.1" 404 1642
+[19/Aug/2015 17:38:59] "GET /static/images/legal/privacy-seal-truste.png?v=58-50 HTTP/1.1" 404 1723
+[19/Aug/2015 17:38:59] "GET /static/images/legal/ratings/esrb/en/rp-m.png?v=58-50 HTTP/1.1" 404 1726
+[19/Aug/2015 17:38:59] "GET /static/css/nav-client/nav-client-responsive.css?v=50 HTTP/1.1" 404 1732
+[19/Aug/2015 17:39:04] "GET /en/search?q=Slaya-X HTTP/1.1" 500 79706
+[19/Aug/2015 17:39:04] "GET /favicon.ico HTTP/1.1" 500 79012
+[19/Aug/2015 17:39:06] "GET /get/http://battle.net?login HTTP/1.1" 200 260
+[19/Aug/2015 17:39:07] "GET /favicon.ico HTTP/1.1" 500 79036
+[19/Aug/2015 17:44:31] "GET /get/http://www.yahoo.com HTTP/1.1" 200 338061
+[19/Aug/2015 17:44:33] "GET /get/http://www.yahoo.com HTTP/1.1" 200 333982
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[19/Aug/2015 17:44:33] "GET /get/http://www.yahoo.com HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[19/Aug/2015 17:45:57] "GET / HTTP/1.1" 500 78633
+[19/Aug/2015 17:45:58] "GET /favicon.ico HTTP/1.1" 500 78955
+[19/Aug/2015 17:46:13] "GET /get/battle.net HTTP/1.1" 500 78921
+[19/Aug/2015 17:46:13] "GET /favicon.ico HTTP/1.1" 500 78997
+[19/Aug/2015 17:46:28] "GET /get/https://battle.net HTTP/1.1" 200 30659
+[19/Aug/2015 17:46:29] "GET /static/local-common/css/common.css?v=58-50 HTTP/1.1" 404 1696
+[19/Aug/2015 17:46:29] "GET /static/css/bnet.css?v=50 HTTP/1.1" 404 1648
+[19/Aug/2015 17:46:29] "GET /static/css/nav-client/nav-client.css?v=50 HTTP/1.1" 404 1699
+[19/Aug/2015 17:46:29] "GET /static/css/homepage.css?v=50 HTTP/1.1" 404 1660
+[19/Aug/2015 17:46:29] "GET /static/local-common/js/third-party.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:46:29] "GET /static/local-common/js/common-game-site.min.js?v=58 HTTP/1.1" 404 1729
+[19/Aug/2015 17:46:29] "GET /static/js/nav-client/navbar-tk.min.js?v=50 HTTP/1.1" 404 1702
+[19/Aug/2015 17:46:29] "GET /static/local-common/js/common/menu.js?v=58 HTTP/1.1" 404 1702
+[19/Aug/2015 17:46:29] "GET /static/js/bnet.js?v=50 HTTP/1.1" 404 1642
+[19/Aug/2015 17:46:29] "GET /static/images/nav-client/blizzard.png?v=58-50 HTTP/1.1" 404 1705
+[19/Aug/2015 17:46:29] "GET /static/images/legal/privacy-seal-truste.png?v=58-50 HTTP/1.1" 404 1723
+[19/Aug/2015 17:46:29] "GET /static/images/legal/ratings/esrb/en/rp-m.png?v=58-50 HTTP/1.1" 404 1726
+[19/Aug/2015 17:46:29] "GET /static/css/nav-client/nav-client-responsive.css?v=50 HTTP/1.1" 404 1732
+[19/Aug/2015 17:46:38] "GET /get/https://plex.tv.com HTTP/1.1" 500 92586
+[19/Aug/2015 17:46:38] "GET /favicon.ico HTTP/1.1" 500 79024
+[19/Aug/2015 17:46:43] "GET /get/https://facebook.com HTTP/1.1" 200 52305
+[19/Aug/2015 17:46:44] "POST /ajax/bz HTTP/1.1" 403 2295
+[19/Aug/2015 17:46:45] "POST /ajax/bz HTTP/1.1" 403 2295
+[19/Aug/2015 17:49:37] "GET /get/www.ign.com HTTP/1.1" 500 81230
+[19/Aug/2015 17:49:38] "GET /favicon.ico HTTP/1.1" 500 81285
+[19/Aug/2015 17:50:03] "GET /get/facebook HTTP/1.1" 500 81158
+[19/Aug/2015 17:50:03] "GET /favicon.ico HTTP/1.1" 500 81276
+[19/Aug/2015 17:50:06] "GET /get/facebook.com HTTP/1.1" 500 81254
+[19/Aug/2015 17:50:07] "GET /favicon.ico HTTP/1.1" 500 81288
+[19/Aug/2015 17:50:13] "GET /get/https://facebook.com HTTP/1.1" 200 52420
+[19/Aug/2015 17:50:18] "GET /get/facebook.com HTTP/1.1" 500 81254
+[19/Aug/2015 17:50:19] "GET /favicon.ico HTTP/1.1" 500 81288
+[19/Aug/2015 17:52:14] "GET / HTTP/1.1" 500 80918
+[19/Aug/2015 17:52:15] "GET /favicon.ico HTTP/1.1" 500 81240
+[19/Aug/2015 17:53:10] "GET / HTTP/1.1" 500 80918
+[19/Aug/2015 17:53:11] "GET /favicon.ico HTTP/1.1" 500 81240
+[20/Aug/2015 02:04:46] "GET /robots.txt HTTP/1.0" 500 77195
+[20/Aug/2015 18:45:39] "GET /robots.txt HTTP/1.0" 500 77195
+[22/Aug/2015 04:22:38] "GET /robots.txt HTTP/1.0" 500 77183
+[22/Aug/2015 16:19:23] "GET /robots.txt HTTP/1.0" 500 77192
+[23/Aug/2015 16:06:27] "GET /robots.txt HTTP/1.0" 500 77198
+[23/Aug/2015 21:47:34] "GET /robots.txt HTTP/1.0" 500 77192
+[25/Aug/2015 05:57:45] "GET /robots.txt HTTP/1.0" 500 77198
+[25/Aug/2015 19:34:47] "GET /robots.txt HTTP/1.0" 500 77195
+[26/Aug/2015 02:25:32] "GET /robots.txt HTTP/1.0" 500 77192
+[26/Aug/2015 17:08:45] "GET /robots.txt HTTP/1.0" 500 77192
+[26/Aug/2015 21:21:29] "GET /get/http://google.com HTTP/1.1" 200 18503
+[26/Aug/2015 21:21:44] "GET /xjs/_/js/k=xjs.hp.en_US.dipijOltWAk.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGH2j95ix8dWTU-Ejrgyf_E0GhQSQ HTTP/1.1" 500 87060
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Aug/2015 21:21:44] "GET /xjs/_/js/k=xjs.hp.en_US.dipijOltWAk.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGH2j95ix8dWTU-Ejrgyf_E0GhQSQ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Aug/2015 21:21:45] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 85260
+[26/Aug/2015 21:21:47] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 85452
+[26/Aug/2015 21:21:47] "GET /images/srpr/logo9w.png HTTP/1.1" 500 85164
+[26/Aug/2015 21:21:47] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=2S3eVYTwMYWgNr7risgJ HTTP/1.1" 500 86955
+[26/Aug/2015 21:21:58] "GET /images/nav_logo199.png HTTP/1.1" 500 85164
+[26/Aug/2015 21:21:58] "GET /favicon.ico HTTP/1.1" 500 84900
+[26/Aug/2015 21:22:02] "GET /getGoogleSuggestion/a HTTP/1.1" 200 115
+[26/Aug/2015 21:22:10] "GET /getGoogleSuggestion/a HTTP/1.1" 200 115
+[26/Aug/2015 21:22:17] "GET /get/http:/twitch.com HTTP/1.1" 500 81192
+[26/Aug/2015 21:22:18] "GET /getGoogleSuggestion/a HTTP/1.1" 200 115
+[26/Aug/2015 21:22:24] "GET /getGoogleSuggestion/as HTTP/1.1" 200 104
+[26/Aug/2015 21:22:30] "GET /getGoogleSuggestion/as/ HTTP/1.1" 200 116
+[26/Aug/2015 21:22:35] "GET /getGoogleSuggestion/as/ HTTP/1.1" 200 116
+[26/Aug/2015 21:22:46] "GET /get/http://twitch.com HTTP/1.1" 200 45577
+[26/Aug/2015 21:22:54] "GET /pp.js?owner= HTTP/1.1" 500 85219
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Aug/2015 21:22:54] "GET /pp.js?owner= HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Aug/2015 21:23:02] "GET /get/http://twitch.tv HTTP/1.1" 200 45577
+[26/Aug/2015 21:23:10] "GET /pp.js?owner= HTTP/1.1" 500 85216
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Aug/2015 21:23:10] "GET /pp.js?owner= HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[26/Aug/2015 21:23:26] "GET /directory/game/Counter-Strike%3A%20Global%20Offensive HTTP/1.1" 500 85969
+[26/Aug/2015 21:23:50] "GET /get/http://twitch.tv/directory/game/Counter-Strike%3A%20Global%20Offensive HTTP/1.1" 200 32489
+[27/Aug/2015 16:27:51] "GET /robots.txt HTTP/1.0" 500 77183
+[28/Aug/2015 03:21:25] "GET /robots.txt HTTP/1.0" 500 77195
+[28/Aug/2015 03:31:41] "GET /get/http://www.yahoo.com HTTP/1.1" 200 332494
+[28/Aug/2015 03:31:46] "GET /get/http://google.com HTTP/1.1" 200 18515
+p&biw=&bih=&q=&btnI=I%27m+Feeling+Lucky&gbv=1
+search?ie=ISO-8859-1&hl=en&source=hp&biw=&bih=&q=&btnI=I%27m+Feeling+Lucky&gbv=1
+/favicon.ico
+favicon.ico
+/favicon.ico
+favicon.ico
+/
+
+/favicon.ico
+favicon.ico
+/robots.txt
+robots.txt
+/
+
+/
+
+/robots.txt
+robots.txt
+/
+
+/favicon.ico
+ /apple-touch-icon-precomposed.png
+apple-touch-icon-precomposed.png
+favicon.ico
+/apple-touch-icon.png
+apple-touch-icon.png
+/get/http://battle.net
+http://battle.net
+/get/http://battle.net
+http://battle.net
+/en/search?q=Slaya-X
+en/search?q=Slaya-X
+/favicon.ico
+favicon.ico
+/get/http://battle.net?login
+http://battle.net?login
+/get/http://battle.net
+http://battle.net
+/get/http://
+http://
+/favicon.ico
+favicon.ico
+/get/http://app/
+http://app/
+/get/
+
+/favicon.ico
+favicon.ico
+/
+
+/favicon.ico
+favicon.ico
+/favicon.ico
+favicon.ico
+/get/http://battle.net
+http://battle.net
+/en/search?q=Slaya-X
+en/search?q=Slaya-X
+/favicon.ico
+favicon.ico
+/get/http://battle.net?login
+http://battle.net?login
+/favicon.ico
+favicon.ico
+/get/http://www.yahoo.com
+http://www.yahoo.com
+/get/http://www.yahoo.com
+http://www.yahoo.com
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.98', 52568)
+----------------------------------------
+/
+
+/favicon.ico
+favicon.ico
+/get/battle.net
+battle.net
+/favicon.ico
+favicon.ico
+/get/https://battle.net
+https://battle.net
+/get/https://plex.tv.com
+https://plex.tv.com
+/favicon.ico
+favicon.ico
+/get/https://facebook.com
+https://facebook.com
+/get/www.ign.com
+www.ign.com
+/favicon.ico
+favicon.ico
+/get/facebook
+facebook
+/favicon.ico
+favicon.ico
+/get/facebook.com
+facebook.com
+/favicon.ico
+favicon.ico
+/get/https://facebook.com
+https://facebook.com
+/get/facebook.com
+facebook.com
+/favicon.ico
+favicon.ico
+/
+
+/favicon.ico
+favicon.ico
+/
+
+/favicon.ico
+favicon.ico
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http://google.com
+http://google.com
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+ /client_204?&atyp=i&biw=1440&bih=811&ei=2S3eVYTwMYWgNr7risgJ
+client_204?&atyp=i&biw=1440&bih=811&ei=2S3eVYTwMYWgNr7risgJ
+/xjs/_/js/k=xjs.hp.en_US.dipijOltWAk.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGH2j95ix8dWTU-Ejrgyf_E0GhQSQ
+xjs/_/js/k=xjs.hp.en_US.dipijOltWAk.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGH2j95ix8dWTU-Ejrgyf_E0GhQSQ
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.99', 23145)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/favicon.ico
+favicon.ico
+/get/http:/twitch.com
+http:/twitch.com
+/get/http://twitch.com
+http://twitch.com
+/pp.js?owner=
+pp.js?owner=
+/get/http://twitch.tv
+http://twitch.tv
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.99', 2611)
+----------------------------------------
+/pp.js?owner=
+pp.js?owner=
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.99', 53224)
+----------------------------------------
+/directory/game/Counter-Strike: Global Offensive
+directory/game/Counter-Strike: Global Offensive
+/get/http://twitch.tv/directory/game/Counter-Strike: Global Offensive
+http://twitch.tv/directory/game/Counter-Strike: Global Offensive
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http://www.yahoo.com
+http://www.yahoo.com
+/get/http://google.com
+http://google.com
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+ /images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/client_204?&atyp=i&biw=1440&bih=811&ei=IdbfVbGxM4rEggSHzp3QAQ
+client_204?&atyp=i&biw=1440&bih=811&ei=IdbfVbGxM4rEggSHzp3QAQ
+/xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY[28/Aug/2015 03:31:46] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 82542
+[28/Aug/2015 03:31:46] "GET /images/srpr/logo9w.png HTTP/1.1" 500 82254
+[28/Aug/2015 03:31:46] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 84150
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[28/Aug/2015 03:31:46] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[28/Aug/2015 03:31:46] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 82350
+[28/Aug/2015 03:31:46] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=IdbfVbGxM4rEggSHzp3QAQ HTTP/1.1" 500 84085
+[28/Aug/2015 03:31:47] "GET /images/nav_logo199.png HTTP/1.1" 500 82254
+[28/Aug/2015 03:31:52] "GET /get/http://www.yahoo.com HTTP/1.1" 200 333099
+[28/Aug/2015 03:31:57] "POST /hjsal HTTP/1.1" 403 2295
+[28/Aug/2015 07:18:26] "GET /robots.txt HTTP/1.0" 500 77192
+[28/Aug/2015 17:49:58] "GET /robots.txt HTTP/1.0" 500 77192
+[29/Aug/2015 14:09:58] "GET / HTTP/1.1" 500 77301
+[29/Aug/2015 14:10:59] "GET / HTTP/1.1" 500 77301
+[30/Aug/2015 08:29:12] "GET /robots.txt HTTP/1.0" 500 77198
+[30/Aug/2015 19:37:28] "GET /get/http://www.cerner.com HTTP/1.1" 200 23759
+[30/Aug/2015 19:37:29] "GET /include/css/home.css HTTP/1.1" 500 82646
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:29] "GET /include/css/home.css HTTP/1.1" 500 59
+[30/Aug/2015 19:37:29] "GET /workarea/csslib/ektronCss.ashx?id=EktronModalCss+EktronPageHostCss HTTP/1.1" 500 83929
+[30/Aug/2015 19:37:29] "GET /include/css/main.css HTTP/1.1" 500 82646
+[30/Aug/2015 19:37:29] "GET /WorkArea/java/ektron.js HTTP/1.1" 500 82673
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.finish_request(request, client_address)
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+[30/Aug/2015 19:37:29] "GET /include/css/footer.css HTTP/1.1" 500 82694
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+Traceback (most recent call last):
+    self.flush()
+    self.RequestHandlerClass(request, client_address, self)
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+[30/Aug/2015 19:37:30] "GET /include/css/main.css HTTP/1.1" 500 59
+    self.finish_response()
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+[30/Aug/2015 19:37:30] "GET /get/http://CernerBoxWidget/css/box.css HTTP/1.1" 500 96329
+[30/Aug/2015 19:37:30] "GET /WorkArea/java/ektron.js HTTP/1.1" 500 59
+Traceback (most recent call last):
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:30] "GET /workarea/csslib/ektronCss.ashx?id=EktronModalCss+EktronPageHostCss HTTP/1.1" 500 59
+Traceback (most recent call last):
+    self.write(data)
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self.finish_request(request, client_address)
+    self.wfile.close()
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.finish_response()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self._write(data)
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+Traceback (most recent call last):
+    self.flush()
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.write(data)
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+[30/Aug/2015 19:37:30] "GET /include/js/lib/jquery.jcarousel.min.js HTTP/1.1" 500 83033
+error: [Errno 32] Broken pipe
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_request(request, client_address)
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.flush()
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:30] "GET /include/css/footer.css HTTP/1.1" 500 59
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.finish()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+[30/Aug/2015 19:37:30] "GET /get/http://CernerBoxWidget/css/box.css HTTP/1.1" 500 59
+    self.wfile.close()
+    self.finish_response()
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+[30/Aug/2015 19:37:30] "GET /include/js/core.js HTTP/1.1" 500 82553
+    self._write(data)
+Traceback (most recent call last):
+Traceback (most recent call last):
+    self.finish()
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+Traceback (most recent call last):
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+[30/Aug/2015 19:37:30] "GET /ScriptResource.axd?d=sGocL1XtKDio2gSGrb31heZvZSYUvUdzbHt191l46hFpyHV1Z3cFNlRqiIdjBiYF_yWCUnUSanXvGWbOZ9XHu_DiHVRomRoy2BsTxSSm1Zrzy3uEIjiRv61jFEp4HTxcHYqs7s45kiyncYgBkngo_otBuA81&t=ffffffff9b7d03cf HTTP/1.1" 500 86673
+    self.finish_response()
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.flush()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.finish_request(request, client_address)
+    self.write(data)
+    self.finish_response()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self._write(data)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.finish()
+    self.RequestHandlerClass(request, client_address, self)
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.write(data)
+[30/Aug/2015 19:37:30] "GET /include/js/lib/jquery.jcarousel.min.js HTTP/1.1" 500 59
+[30/Aug/2015 19:37:30] "GET /WorkArea/java/webkitFix.js HTTP/1.1" 500 82745
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+[30/Aug/2015 19:37:30] "GET /ScriptResource.axd?d=BblnOvBV5LlAONYbzCp0sQhFJ_9Lqgojuc5fiilKhrotiQVdqWVYKPJz4hL8jY_b45Mc3YaYn2PjQiCHd-V9AANCQQtlGo8_60nLpHPaxeGbBYPxnRJ8XPZRU0DDQd3B0Udtz5hgZUx3pcRIRiw-iZfVufs1&t=ffffffff9b7d03cf HTTP/1.1" 500 86673
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+Traceback (most recent call last):
+    self.flush()
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish_response()
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+[30/Aug/2015 19:37:30] "GET /include/js/core.js HTTP/1.1" 500 59
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 63986)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/get/http://www.yahoo.com
+http://www.yahoo.com
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/
+
+/
+
+/robots.txt
+robots.txt
+/get/http://www.cerner.com
+http://www.cerner.com
+/workarea/csslib/ektronCss.ashx?id=EktronModalCss+EktronPageHostCss
+workarea/csslib/ektronCss.ashx?id=EktronModalCss+EktronPageHostCss
+/WorkArea/java/ektron.js
+ /get/http://CernerBoxWidget/css/box.css
+http://CernerBoxWidget/css/box.css
+WorkArea/java/ektron.js
+/include/css/main.css
+include/css/main.css
+/include/css/home.css
+include/css/home.css
+/include/css/footer.css
+include/css/footer.css
+/include/js/lib/jquery.jcarousel.min.js
+include/js/lib/jquery.jcarousel.min.js
+/include/js/core.js
+include/js/core.js
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54127)
+/WorkArea/java/webkitFix.js
+WorkArea/java/webkitFix.js
+/ScriptResource.axd?d=sGocL1XtKDio2gSGrb31heZvZSYUvUdzbHt191l46hFpyHV1Z3cFNlRqiIdjBiYF_yWCUnUSanXvGWbOZ9XHu_DiHVRomRoy2BsTxSSm1Zrzy3uEIjiRv61jFEp4HTxcHYqs7s45kiyncYgBkngo_otBuA81&t=ffffffff9b7d03cf
+ScriptResource.axd?d=sGocL1XtKDio2gSGrb31heZvZSYUvUdzbHt191l46hFpyHV1Z3cFNlRqiIdjBiYF_yWCUnUSanXvGWbOZ9XHu_DiHVRomRoy2BsTxSSm1Zrzy3uEIjiRv61jFEp4HTxcHYqs7s45kiyncYgBkngo_otBuA81&t=ffffffff9b7d03cf
+/ScriptResource.axd?d=BblnOvBV5LlAONYbzCp0sQhFJ_9Lqgojuc5fiilKhrotiQVdqWVYKPJz4hL8jY_b45Mc3YaYn2PjQiCHd-V9AANCQQtlGo8_60nLpHPaxeGbBYPxnRJ8XPZRU0DDQd3B0Udtz5hgZUx3pcRIRiw-iZfVufs1&t=ffffffff9b7d03cf
+ScriptResource.axd?d=BblnOvBV5LlAONYbzCp0sQhFJ_9Lqgojuc5fiilKhrotiQVdqWVYKPJz4hL8jY_b45Mc3YaYn2PjQiCHd-V9AANCQQtlGo8_60nLpHPaxeGbBYPxnRJ8XPZRU0DDQd3B0Udtz5hgZUx3pcRIRiw-iZfVufs1&t=ffffffff9b7d03cf
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54125)
+----------------------------------------
+Exception happened during processing of request from ----------------------------------------
+Exception happened during processing of request from('99.14.140.249', 54122)
+ (/ScriptResource.axd?d=4SU1oNTItHEoBR4nxJk6X-sJ1DvWqV9aPRIRPbKoV1MYzT8-PbrhYr9WHSq8rU_7D0HJNVzpJYZNHXo4bkUCT8KRDFC_8todhlPxjoW0mwtGQ2GVcT6SXOp9jBe4MYJUh0MZSPkUS-x5NFXo72X5hRiFJrc1&t=ffffffff9b7d03cf
+'99.14.140.249'ScriptResource.axd?d=4SU1oNTItHEoBR4nxJk6X-sJ1DvWqV9aPRIRPbKoV1MYzT8-PbrhYr9WHSq8rU_7D0HJNVzpJYZNHXo4bkUCT8KRDFC_8todhlPxjoW0mwtGQ2GVcT6SXOp9jBe4MYJUh0MZSPkUS-x5NFXo72X5hRiFJrc1&t=ffffffff9b7d03cf, 54123
+)----------------------------------------
+
+----------------------------------------/public/include/java/webtrends.js
+public/include/java/webtrends.js
+----------------------------------------
+
+Exception happened during processing of request from (----------------------------------------
+'99.14.140.249'Exception happened during processing of request from, 54126/ScriptResource.axd?d=SZAEAbrdpfpBgCby8Mei5-eUfEmhw5tywPsJIgl4Z4TyvIo8-uwCbEH2KjYTLqZZqTFEINUe5MMU7zM7dtMJDXTj3S00tckcWqUcrwGHBxBwkSRRDh0WCBjF3OidT2IR_u82WGusSrvvVHPMIoReA6XAKks1&t=2e2045e2
+ScriptResource.axd?d=SZAEAbrdpfpBgCby8Mei5-eUfEmhw5tywPsJIgl4Z4TyvIo8-uwCbEH2KjYTLqZZqTFEINUe5MMU7zM7dtMJDXTj3S00tckcWqUcrwGHBxBwkSRRDh0WCBjF3OidT2IR_u82WGusSrvvVHPMIoReA6XAKks1&t=2e2045e2
+ )
+('99.14.140.249', 54124)
+/ScriptResource.axd?d=34unVtQVkaPNPJ_ogcLxQCSYH1kLdSjR9RtCPfFzVqUJ_6Ym4ODP23kT3ePMTJGt8vxQ868gHBGpSsnokBNSq5Rjduvad4lwgK8QHb2_bFPKrWqTlYuM7GPEZSBo3T4KW-68YfpCyH2XWItA32EZpWaO2ZI1&t=ffffffff9b7d03cf
+ScriptResource.axd?d=34unVtQVkaPNPJ_ogcLxQCSYH1kLdSjR9RtCPfFzVqUJ_6Ym4ODP23kT3ePMTJGt8vxQ868gHBGpSsnokBNSq5Rjduvad4lwgK8QHb2_bFPKrWqTlYuM7GPEZSBo3T4KW-68YfpCyH2XWItA32EZpWaO2ZI1&t=ffffffff9b7d03cf
+ --------------------------------------------------------------------------------
+
+----------------------------------------
+Exception happened during processing of request from (/ScriptResource.axd?d=1wuMQE-ZopYdYVwf8C5V5HPndAJOq3BXt8zvBp6x2FSgcglBNDzT_vDQ0OoEtKw    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+error: [Errno 32] Broken pipe
+    self.wfile.close()
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+Traceback (most recent call last):
+    self._write(data)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.write(data)
+[30/Aug/2015 19:37:30] "GET /ScriptResource.axd?d=4SU1oNTItHEoBR4nxJk6X-sJ1DvWqV9aPRIRPbKoV1MYzT8-PbrhYr9WHSq8rU_7D0HJNVzpJYZNHXo4bkUCT8KRDFC_8todhlPxjoW0mwtGQ2GVcT6SXOp9jBe4MYJUh0MZSPkUS-x5NFXo72X5hRiFJrc1&t=ffffffff9b7d03cf HTTP/1.1" 500 86673
+Traceback (most recent call last):
+[30/Aug/2015 19:37:30] "GET /public/include/java/webtrends.js HTTP/1.1" 500 82889
+    self.flush()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self.flush()
+[30/Aug/2015 19:37:30] "GET /ScriptResource.axd?d=sGocL1XtKDio2gSGrb31heZvZSYUvUdzbHt191l46hFpyHV1Z3cFNlRqiIdjBiYF_yWCUnUSanXvGWbOZ9XHu_DiHVRomRoy2BsTxSSm1Zrzy3uEIjiRv61jFEp4HTxcHYqs7s45kiyncYgBkngo_otBuA81&t=ffffffff9b7d03cf HTTP/1.1" 500 59
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+error: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.finish_request(request, client_address)
+    self.finish_request(request, client_address)
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+[30/Aug/2015 19:37:30] "GET /ScriptResource.axd?d=SZAEAbrdpfpBgCby8Mei5-eUfEmhw5tywPsJIgl4Z4TyvIo8-uwCbEH2KjYTLqZZqTFEINUe5MMU7zM7dtMJDXTj3S00tckcWqUcrwGHBxBwkSRRDh0WCBjF3OidT2IR_u82WGusSrvvVHPMIoReA6XAKks1&t=2e2045e2 HTTP/1.1" 500 86513
+[30/Aug/2015 19:37:30] "GET /WorkArea/java/webkitFix.js HTTP/1.1" 500 59
+    self.finish_response()
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self.RequestHandlerClass(request, client_address, self)
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.finish_request(request, client_address)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.write(data)
+    self.flush()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self.finish_response()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self._write(data)
+    self.write(data)
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+error: [Errno 32] Broken pipe
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.wfile.close()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.finish()
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=4SU1oNTItHEoBR4nxJk6X-sJ1DvWqV9aPRIRPbKoV1MYzT8-PbrhYr9WHSq8rU_7D0HJNVzpJYZNHXo4bkUCT8KRDFC_8todhlPxjoW0mwtGQ2GVcT6SXOp9jBe4MYJUh0MZSPkUS-x5NFXo72X5hRiFJrc1&t=ffffffff9b7d03cf HTTP/1.1" 500 59
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self._write(data)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.finish()
+    self.flush()
+Traceback (most recent call last):
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=BblnOvBV5LlAONYbzCp0sQhFJ_9Lqgojuc5fiilKhrotiQVdqWVYKPJz4hL8jY_b45Mc3YaYn2PjQiCHd-V9AANCQQtlGo8_60nLpHPaxeGbBYPxnRJ8XPZRU0DDQd3B0Udtz5hgZUx3pcRIRiw-iZfVufs1&t=ffffffff9b7d03cf HTTP/1.1" 500 59
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.finish_request(request, client_address)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+[30/Aug/2015 19:37:31] "GET /public/include/java/webtrends.js HTTP/1.1" 500 59
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+    self.flush()
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=SZAEAbrdpfpBgCby8Mei5-eUfEmhw5tywPsJIgl4Z4TyvIo8-uwCbEH2KjYTLqZZqTFEINUe5MMU7zM7dtMJDXTj3S00tckcWqUcrwGHBxBwkSRRDh0WCBjF3OidT2IR_u82WGusSrvvVHPMIoReA6XAKks1&t=2e2045e2 HTTP/1.1" 500 59
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+Traceback (most recent call last):
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+error: [Errno 32] Broken pipe
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+Traceback (most recent call last):
+    self.finish()
+    self.finish_request(request, client_address)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+error: [Errno 32] Broken pipe
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.wfile.close()
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.RequestHandlerClass(request, client_address, self)
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self.flush()
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.finish_request(request, client_address)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+    self.finish()
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=_hIJNAOCjL_wWsreiTmbNjXokW7YtBgaLUgpXCidW5zf1ech2QtzwY_ha2-jr6R0iq6JE-dQ2KKUEX9oaZVqW0qQjXF97DIeN49HNcHvu1Xmdlu1OQTEUDHk3xhXsbQWwhPtOajS0KFevZVXsJgIODd6uGY1&t=ffffffff9b7d03cf HTTP/1.1" 500 86673
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=34unVtQVkaPNPJ_ogcLxQCSYH1kLdSjR9RtCPfFzVqUJ_6Ym4ODP23kT3ePMTJGt8vxQ868gHBGpSsnokBNSq5Rjduvad4lwgK8QHb2_bFPKrWqTlYuM7GPEZSBo3T4KW-68YfpCyH2XWItA32EZpWaO2ZI1&t=ffffffff9b7d03cf HTTP/1.1" 500 86673
+Traceback (most recent call last):
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+Traceback (most recent call last):
+    self.wfile.close()
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.finish_response()
+    self.flush()
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=udSe-qW1c2gs26didOTiSyeRBTIuKP_9cnqG08wLC-0Oa31iAzA6j_H9vTOYrK5U5dKLUjpJKs7yyhOmuKTksH9_7Ei8iE5uC7auBe0dXqiLBd9kxKlZX9YbZvoqBN2buU62Ksz6pEEznWEub0JGRV-mCNo1&t=ffffffff9b7d03cf HTTP/1.1" 500 86673
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.flush()
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.write(data)
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.finish_response()
+error: [Errno 32] Broken pipe
+    self.write(data)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.wfile.close()
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+error: [Errno 32] Broken pipe
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+[30/Aug/2015 19:37:31] "GET /include/js/gallery.js HTTP/1.1" 500 82625
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.flush()
+    self.flush()
+    self.flush()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+error: [Errno 32] Broken pipe
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=34unVtQVkaPNPJ_ogcLxQCSYH1kLdSjR9RtCPfFzVqUJ_6Ym4ODP23kT3ePMTJGt8vxQ868gHBGpSsnokBNSq5Rjduvad4lwgK8QHb2_bFPKrWqTlYuM7GPEZSBo3T4KW-68YfpCyH2XWItA32EZpWaO2ZI1&t=ffffffff9b7d03cf HTTP/1.1" 500 59
+error: [Errno 32] Broken pipe
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=_hIJNAOCjL_wWsreiTmbNjXokW7YtBgaLUgpXCidW5zf1ech2QtzwY_ha2-jr6R0iq6JE-dQ2KKUEX9oaZVqW0qQjXF97DIeN49HNcHvu1Xmdlu1OQTEUDHk3xhXsbQWwhPtOajS0KFevZVXsJgIODd6uGY1&t=ffffffff9b7d03cf HTTP/1.1" 500 59
+    self.write(data)
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=udSe-qW1c2gs26didOTiSyeRBTIuKP_9cnqG08wLC-0Oa31iAzA6j_H9vTOYrK5U5dKLUjpJKs7yyhOmuKTksH9_7Ei8iE5uC7auBe0dXqiLBd9kxKlZX9YbZvoqBN2buU62Ksz6pEEznWEub0JGRV-mCNo1&t=ffffffff9b7d03cf HTTP/1.1" 500 59
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.flush()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+[30/Aug/2015 19:37:31] "GET /include/js/gallery.js HTTP/1.1" 500 59
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+Traceback (most recent call last):
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.RequestHandlerClass(request, client_address, self)
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+Traceback (most recent call last):
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.wfile.close()
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.finish()
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.wfile.close()
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self.RequestHandlerClass(request, client_address, self)
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.flush()
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.wfile.close()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.finish()
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.wfile.close()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+error: [Errno 32] Broken pipe
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:31] "GET /ScriptResource.axd?d=1wuMQE-ZopYdYVwf8C5V5HPndAJOq3BXt8zvBp6x2FSgcglBNDzT_vDQ0OoEtKwsh_1St4M1MUVUOkXXIQ569v5YFQFd45rZoZnuYNX4W5StnY9sObkSVEwNBIFe688V0C2LI9YmekaJ6MeyyrxaFMhJGTkXsgP6GvqtazhI1s1gys6r0&t=ffffffff9b7d03cf HTTP/1.1" 500 87093
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_employers.jpg HTTP/1.1" 500 83009
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_physicianpractice.jpg HTTP/1.1" 500 83201
+[30/Aug/2015 19:37:32] "GET /uploadedImages/6_herotemplate-01.jpg HTTP/1.1" 500 82985
+[30/Aug/2015 19:37:32] "GET /uploadedImages/7_herotemplate-01.jpg HTTP/1.1" 500 82985
+[30/Aug/2015 19:37:32] "GET /get/http://uploadedImages/9_herotemplate-01.jpg HTTP/1.1" 500 96470
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_consumer.jpg HTTP/1.1" 500 82985
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_chc2010.jpg HTTP/1.1" 500 82961
+Traceback (most recent call last):
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.write(data)
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.send_headers()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+    self.send_preamble()
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_healthcarereform.jpg HTTP/1.1" 500 83177
+Traceback (most recent call last):
+    self.write(data)
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_devices.jpg HTTP/1.1" 500 82961
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 194, in send_preamble
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    'Date: %s\r\n' % format_date_time(time.time())
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 212, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.flush()
+    self.send_headers()
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 270, in send_headers
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.send_preamble()
+    self._write(data)
+error: [Errno 32] Broken pipe
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 194, in send_preamble
+    'Date: %s\r\n' % format_date_time(time.time())
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_chc2010.jpg HTTP/1.1" 500 59
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self.flush()
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+error: [Errno 32] Broken pipe
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_consumer.jpg HTTP/1.1" 500 59
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+sh_1St4M1MUVUOkXXIQ569v5YFQFd45rZoZnuYNX4W5StnY9sObkSVEwNBIFe688V0C2LI9YmekaJ6MeyyrxaFMhJGTkXsgP6GvqtazhI1s1gys6r0&t=ffffffff9b7d03cf
+ScriptResource.axd?d=1wuMQE-ZopYdYVwf8C5V5HPndAJOq3BXt8zvBp6x2FSgcglBNDzT_vDQ0OoEtKwsh_1St4M1MUVUOkXXIQ569v5YFQFd45rZoZnuYNX4W5StnY9sObkSVEwNBIFe688V0C2LI9YmekaJ6MeyyrxaFMhJGTkXsgP6GvqtazhI1s1gys6r0&t=ffffffff9b7d03cf
+'99.14.140.249' /ScriptResource.axd?d=_hIJNAOCjL_wWsreiTmbNjXokW7YtBgaLUgpXCidW5zf1ech2QtzwY_ha2-jr6R0iq6JE-dQ2KKUEX9oaZVqW0qQjXF97DIeN49HNcHvu1Xmdlu1OQTEUDHk3xhXsbQWwhPtOajS0KFevZVXsJgIODd6uGY1&t=ffffffff9b7d03cf
+ScriptResource.axd?d=_hIJNAOCjL_wWsreiTmbNjXokW7YtBgaLUgpXCidW5zf1ech2QtzwY_ha2-jr6R0iq6JE-dQ2KKUEX9oaZVqW0qQjXF97DIeN49HNcHvu1Xmdlu1OQTEUDHk3xhXsbQWwhPtOajS0KFevZVXsJgIODd6uGY1&t=ffffffff9b7d03cf
+, ----------------------------------------
+Exception happened during processing of request from ('99.14.140.249'54128, ----------------------------------------
+)
+54129)----------------------------------------
+Exception happened during processing of request from
+ ('99.14.140.249', /include/js/gallery.js ----------------------------------------
+54131)
+
+include/js/gallery.js
+----------------------------------------
+Exception happened during processing of request from /ScriptResource.axd?d=udSe-qW1c2gs26didOTiSyeRBTIuKP_9cnqG08wLC-0Oa31iAzA6j_H9vTOYrK5U5dKLUjpJKs7yyhOmuKTksH9_7Ei8iE5uC7auBe0dXqiLBd9kxKlZX9YbZvoqBN2buU62Ksz6pEEznWEub0JGRV-mCNo1&t=ffffffff9b7d03cf
+ScriptResource.axd?d=udSe-qW1c2gs26didOTiSyeRBTIuKP_9cnqG08wLC-0Oa31iAzA6j_H9vTOYrK5U5dKLUjpJKs7yyhOmuKTksH9_7Ei8iE5uC7auBe0dXqiLBd9kxKlZX9YbZvoqBN2buU62Ksz6pEEznWEub0JGRV-mCNo1&t=ffffffff9b7d03cf
+('99.14.140.249', 54130)----------------------------------------
+
+Exception happened during processing of request from ('99.14.140.249', ----------------------------------------54133
+----------------------------------------
+Exception happened during processing of request from ()
+----------------------------------------
+ ----------------------------------------
+Exception happened during processing of request from'99.14.140.249', Exception happened during processing of request from ( (54135)----------------------------------------
+'99.14.140.249', 54132
+'99.14.140.249', )54134
+)
+----------------------------------------
+----------------------------------------
+--------------------------------------------------------------------------------
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+ ----------------------------------------Exception happened during processing of request from
+ ----------------------------------------
+ Exception happened during processing of request fromException happened during processing of request from('9 9.14.140.249'('99.14.140.249', 54136), 
+54138) 
+('99.14.140.249', 54140)
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54139)
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+/get/http://include/img/logo-cerner.gif
+http://include/img/logo-cerner.gif
+/get/http://uploadedImages/9_herotemplate-01.jpg
+http://uploadedImages/9_herotemplate-01.jpg
+/uploadedImages/carousel_employers.jpg
+uploadedImages/carousel_employers.jpg
+/uploadedImages/carousel_physicianpractice.jpg
+uploadedImages/carousel_physicianpractice.jpg
+/uploadedImages/7_herotemplate-01.jpg
+uploadedImages/7_herotemplate-01.jpg
+/uploadedImages/6_herotemplate-01.jpg
+uploadedImages/6_herotemplate-01.jpg
+/uploadedImages/carousel_healthcarereform.jpg
+uploadedImages/carousel_healthcarereform.jpg
+/uploadedImages/carousel_chc2010.jpg
+uploadedImages/carousel_chc2010.jpg
+/uploadedImages/carousel_consumer.jpg
+uploadedImages/carousel_consumer.jpg
+/uploadedImages/cerner_acq_carourselfinal.jpg
+uploadedImages/cerner_acq_carourselfinal.jpg
+/uploadedImages/carousel_devices.jpg
+uploadedImages/carousel_devices.jpg
+----------------------------------------
+Exception happened during processing of request from ------------error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_devices.jpg HTTP/1.1" 500 59
+[30/Aug/2015 19:37:32] "GET /uploadedImages/carousel_healthcarereform.jpg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.RequestHandlerClass(request, client_address, self)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+    self.finish_request(request, client_address)
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.RequestHandlerClass(request, client_address, self)
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    self.wfile.close()
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+    self.flush()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.finish()
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    self.wfile.close()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.wfile.close()
+    self.flush()
+    self.finish()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+error: [Errno 32] Broken pipe
+    self.wfile.close()
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:32] "GET /uploadedImages/cerner_acq_carourselfinal.jpg HTTP/1.1" 500 83177
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:32] "GET /uploadedImages/cerner_acq_carourselfinal.jpg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:36] "GET /get/http://include/img/logo-cerner.gif HTTP/1.1" 500 96260
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:37:36] "GET /get/http://include/img/logo-cerner.gif HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:38:07] "GET /get/http://google.com HTTP/1.1" 200 18571
+[30/Aug/2015 19:38:08] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 82925
+[30/Aug/2015 19:38:08] "GET /images/srpr/logo9w.png HTTP/1.1" 500 82637
+[30/Aug/2015 19:38:08] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=n1vjVfWAFYmhNtS4g8AK HTTP/1.1" 500 84428
+[30/Aug/2015 19:38:08] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 82733
+[30/Aug/2015 19:38:08] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 84533
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:38:08] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:38:08] "GET /images/nav_logo199.png HTTP/1.1" 500 82637
+[30/Aug/2015 19:38:35] "GET /get/http://google.com HTTP/1.1" 200 18525
+[30/Aug/2015 19:38:35] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 82646
+[30/Aug/2015 19:38:35] "GET /images/srpr/logo9w.png HTTP/1.1" 500 82550
+[30/Aug/2015 19:38:35] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 84446
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:38:35] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:38:35] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 82838
+[30/Aug/2015 19:38:35] "GET /client_204?&atyp=i&biw=1266&bih=288&ei=ulvjVcfIJ8WqgwSP4LHQCw HTTP/1.1" 500 84381
+[30/Aug/2015 19:38:36] "GET /images/nav_logo199.png HTTP/1.1" 500 82550
+[30/Aug/2015 19:40:54] "GET /get/http://twitch.com HTTP/1.1" 200 45679
+[30/Aug/2015 19:40:54] "GET /pp.js?owner= HTTP/1.1" 500 82692
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:40:54] "GET /pp.js?owner= HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:41:17] "GET /get/http://google.com HTTP/1.1" 200 18595
+[30/Aug/2015 19:41:18] "GET /images/srpr/logo9w.png HTTP/1.1" 500 84472
+[30/Aug/2015 19:41:18] "GET /images/icons/product/chrome-48.png HTTP/1.1" 500 84760
+[30/Aug/2015 19:41:18] "GET /client_204?&atyp=i&biw=1440&bih=811&ei=XVzjVYPzCMuVNo77i7AK HTTP/1.1" 500 86263
+[30/Aug/2015 19:41:18] "GET /images/srpr/nav_logo80.png HTTP/1.1" 500 84568
+[30/Aug/2015 19:41:18] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 86368
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:41:18] "GET /xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[30/Aug/2015 19:41:18] "GET /images/nav_logo199.png HTTP/1.1" 500 84472
+[31/Aug/2015 08:47:23] "GET /robots.txt HTTP/1.1" 500 77405
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[31/Aug/2015 08:47:23] "GET /robots.txt HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[31/Aug/2015 08:55:22] "GET /get/ HTTP/1.1" 500 77499
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[31/Aug/2015 08:55:22] "GET /get/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[01/Sep/2015 00:34:14] "GET /robots.txt HTTP/1.0" 500 77191
+[01/Sep/2015 08:29:52] "GET /robots.txt HTTP/1.0" 500 77194
+[02/Sep/2015 16:48:38] "GET /robots.txt HTTP/1.0" 500 77197
+[02/Sep/2015 17:04:01] "GET /get/http://twitch.tv HTTP/1.1" 200 52541
+[02/Sep/2015 17:04:01] "GET /pp.js?owner= HTTP/1.1" 500 79632
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[02/Sep/2015 17:04:01] "GET /pp.js?owner= HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[02/Sep/2015 17:04:02] "GET /favicon.ico HTTP/1.1" 500 79313
+----------------------------('99.14.140.249', 
+54148Exception happened during processing of request from)
+ ----------------------------------------
+Exception happened during processing of request from ----------------------------------------
+Exception happened during processing of request from ('99.14.140.249'(, '99.14.140.249', 54147)
+ (54149'99.14.140.249')
+, 54151)
+----------------------------------------
+ ----------------------------------------
+----------------------------------------
+ ----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54150)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54141)
+----------------------------------------
+/get/http://google.com
+http://google.com
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/client_204?&atyp=i&biw=1440&bih=811&ei=n1vjVfWAFYmhNtS4g8AK
+client_204?&atyp=i&biw=1440&bih=811&ei=n1vjVfWAFYmhNtS4g8AK
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54162)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/get/http://google.com
+http://google.com
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/images/srpr/logo9w.png
+ /images/icons/product/chrome-48.pngimages/srpr/logo9w.png
+/xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+
+images/icons/product/chrome-48.png
+/client_204?&atyp=i&biw=1266&bih=288&ei=ulvjVcfIJ8WqgwSP4LHQCw
+client_204?&atyp=i&biw=1266&bih=288&ei=ulvjVcfIJ8WqgwSP4LHQCw
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54177)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/get/http://twitch.com
+http://twitch.com
+/pp.js?owner=
+pp.js?owner=
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54274)
+----------------------------------------
+/get/http://google.com
+http://google.com
+/images/icons/product/chrome-48.png
+images/icons/product/chrome-48.png
+/images/srpr/logo9w.png
+images/srpr/logo9w.png
+/images/srpr/nav_logo80.png
+images/srpr/nav_logo80.png
+/client_204?&atyp=i&biw=1440&bih=811&ei=XVzjVYPzCMuVNo77i7AK
+client_204?&atyp=i&biw=1440&bih=811&ei=XVzjVYPzCMuVNo77i7AK
+/xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+xjs/_/js/k=xjs.hp.en_US.1XkNYL4AbQY.O/m=sb_he,d/rt=j/d=1/t=zcms/rs=ACT90oGcGvWo8HVNUBF0LEn7Uk-LhZTbdg
+----------------------------------------
+Exception happened during processing of request from ('99.14.140.249', 54320)
+----------------------------------------
+/images/nav_logo199.png
+images/nav_logo199.png
+/robots.txt
+robots.txt
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.17', 44806)
+----------------------------------------
+/get/
+
+----------------------------------------
+Exception happened during processing of request from ('180.76.15.159', 38983)
+----------------------------------------
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/robots.txt
+robots.txt
+/get/http://twitch.tv
+http://twitch.tv
+/pp.js?owner=
+pp.js?owner=
+----------------------------------------
+Exception happened during processing of request from ('159.140.254.105', 63028)
+----------------------------------------
+/favicon.ico
+favicon.ico
+/directory/game/Hearthstone: Heroes of Warcraft
+directory/game/Hearthstone: Heroes of Warcraft[02/Sep/2015 17:04:04] "GET /directory/game/Hearthstone%3A%20Heroes%20of%20Warcraft HTTP/1.1" 500 80375
+[03/Sep/2015 01:52:11] "GET /robots.txt HTTP/1.0" 500 77188
+[03/Sep/2015 04:59:49] "GET /robots.txt HTTP/1.1" 500 77774
+[03/Sep/2015 11:28:18] "GET /robots.txt HTTP/1.1" 500 77774
+[03/Sep/2015 17:35:16] "GET /robots.txt HTTP/1.1" 500 77774
+[03/Sep/2015 21:31:45] "GET /robots.txt HTTP/1.0" 500 77191
+[03/Sep/2015 23:30:59] "GET /robots.txt HTTP/1.1" 500 77774
+[04/Sep/2015 05:58:06] "GET /robots.txt HTTP/1.1" 500 77774
+[06/Sep/2015 02:33:12] "GET /robots.txt HTTP/1.0" 500 77188
+[06/Sep/2015 05:08:36] "GET /robots.txt HTTP/1.1" 500 77407
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[06/Sep/2015 05:08:36] "GET /robots.txt HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[06/Sep/2015 05:10:11] "GET /get/http:/google.com HTTP/1.1" 500 74160
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[06/Sep/2015 05:10:11] "GET /get/http:/google.com HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/var/python-django-etc/django-ethan/local/lib/python2.7/site-packages/Django-1.7.1-py2.7.egg/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[06/Sep/2015 15:17:41] "GET /robots.txt HTTP/1.0" 500 77194
+[07/Sep/2015 05:19:28] "GET /robots.txt HTTP/1.0" 500 77226
+[08/Sep/2015 05:51:30] "GET /getGoogleSuggestion/h HTTP/1.1" 200 95
+[08/Sep/2015 05:51:30] "GET /getGoogleSuggestion/he HTTP/1.1" 200 101
+[08/Sep/2015 05:51:31] "GET /getGoogleSuggestion/hel HTTP/1.1" 200 115
+[08/Sep/2015 05:51:31] "GET /getGoogleSuggestion/hell HTTP/1.1" 200 117
+[08/Sep/2015 05:51:31] "GET /getGoogleSuggestion/hello HTTP/1.1" 200 133
+[08/Sep/2015 05:51:32] "GET /getGoogleSuggestion/hello HTTP/1.1" 200 133
+[08/Sep/2015 09:49:41] "GET /robots.txt HTTP/1.0" 500 77191
+[08/Sep/2015 11:35:27] "GET / HTTP/1.1" 500 77300
+[08/Sep/2015 11:36:30] "GET / HTTP/1.1" 500 77300
+[08/Sep/2015 15:59:19] "GET /robots.txt HTTP/1.0" 500 77191
+[09/Sep/2015 18:07:23] "GET /getGoogleSuggestion/a HTTP/1.1" 200 97
+[09/Sep/2015 18:07:24] "GET /getGoogleSuggestion/as HTTP/1.1" 200 97
